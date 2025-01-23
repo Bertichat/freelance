@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container my-5">
+    <div class="bg-dark text-light row">
+
+        <div class="col-6 h3 text-center d-flex align-items-center p-4">
+            Au service de vos données, pour en extraire le meilleur
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+            <img src="{{'/media/tof.jpeg'}}" class="img-fluid rounded" style="max-width: 100%; max-height: 250px;">
+        </div>
+        
+        
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="bg-dark text-light row">
+        <div class="col-6 d-flex justify-content-center">
+            <img class="img-fluid rounded" style="max-width: 100%; max-height: 250px;" src="{{'/media/data_journey.webp'}}">
+        </div>
+
+        <div class="col-6 text-center d-flex align-items-center">
+            <h1>Ma passsion, la gestion de données</h1>
+        </div>
+        
+    </div>
+</div>
+
+
+<div class="bg-dark text-light row d-flex my-5">
+    <div class="col-4 d-flex align-items-center justify-content-center">
+        <h1 class="text-center">Diplômes & Certifications</h1>
+    </div>
+    <div class="col-8">
+        <div class="row">
+            <div class="row">
+                <div class="col-4">
+                    <img class="img-fluid" style="width: 100%; height: 100%;" src="{{'/media/esiea.png'}}">
+                </div>
+                <div class="col-4">
+                    <img class="img-fluid" style="width: 100%; height: 100%;" src="{{'/media/OC.png'}}">
+                </div>
+                <div class="col-4">
+                    <img class="img-fluid" style="width: 100%; height: 100%;" src="{{'/media/toeic.png'}}">
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-4">
+                    <h5 class="lead">Diplôme d'ingénieur</h5>
+                    <p class="">Spécialité Cloud Computing & Big Data</p>
+                </div>
+                <div class="col-4">
+                    <h5 class="lead">Diplôme RNCP7</h5>
+                    <p class="">Scientifique de la donnée</p>
+                </div>
+                <div class="col-4">
+                    <h5 class="lead">TOEIC</h5>
+                    <p class="">Niveau d'anglais professionnel </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock %}
+

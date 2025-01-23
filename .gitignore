@@ -1,0 +1,6 @@
+freelance/db.sqlite3
+env/
+freelance/__pycache__/
+*.log
+*.pot
+*.pyc

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        banana
+    </title>
+        {% load bootstrap5 %}
+        {% bootstrap_css %}
+        {% bootstrap_javascript %}
+        {% load static %}
+</head>
+
+<body class="bg-dark">
+    {%  include 'navbar.html' %}
+    {% block content %}
+    {% endblock %}
+</body>
+
+</html>
